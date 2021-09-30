@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
+/* variables */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #0f9;
+  text-transform: uppercase;
+  outline: 3px solid #fff;
+  outline-offset: 0.25em;
+  display: inline-block;
+  margin: 0.35em 0 0.5em;
+}
+
+h1 span {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+}
+
+p span {
+  color: #0f9;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  padding: 1em;
+  background-color: #444;
+  background-image: url("https://images.unsplash.com/photo-1632829754530-d94a588e2dde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sales-points {
+  padding: 12vh 10vw;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sales-points .sales-point {
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 4px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.cta {
+  background-image: url(//unsplash.it/600/400);
+  background-size: cover;
+  padding: 10vh 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.cta .cta-text {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 0 2em;
+}
+
+@media (min-width: 40rem) {
+  .cta .cta-text {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+.btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 0.7em 1.7em;
+  background: #0f9;
+  color: #444;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00cc7a;
+}
+/*# sourceMappingURL=style.css.map */
